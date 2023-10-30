@@ -77,7 +77,21 @@
 </div>
   
 <div class="footer">
-  <input type="tel" placeholder="Enter your email"><input type="submit"><h4><b>Please leave your contact email if you interested</b></h4>
+  <h3><strong>For questions and inquiries please fill form below</strong></h3>
+  <form>
+    <label for="name">Enter your name</label><br>
+    <input type="text" id="name" name="name" autofocus><br>
+    <label for="contact">Contact number</label><br>
+    <input type="text" id="contact" name="contact"><br><br>
+    <input type="button" id="submit" name="submit" value="Submit" onclick="alert('Submitted!')">
+    <input type="reset" id="reset" name="reset" value="Reset">
+  </form>
+<br>
+  <form class="special">
+    <label for="offer" class="offer">Send job offer</label><br>
+    <input type="file" id="file" name="SUBMIT" accept="application/pdf"><br>
+    <input type="button" id="submitoff" name="submitoff" value="Send" onclick="alert('Sended!')">
+  </form>
 </div>
   
   
