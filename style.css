@@ -4,36 +4,39 @@
 id - 1000 */
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui ;
 }
 
 .header {
     width: 700px;
     height: 50px;  
-    margin-left: 525px;
+    padding: 10px;
     top: auto;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 A:link { 
-    color: #393939 /* Цвет непосещенных ссылок */
+    color: #252422 /* Цвет непосещенных ссылок */
    }
    A:visited { 
-    color: #495664 /* Цвет посещенных ссылок */
+    color: #403d39 /* Цвет посещенных ссылок */
    }
    A:hover { 
-    color: #83c783; /* Цвет ссылок при наведении на них курсора мыши */
+    color: #eb5e28; /* Цвет ссылок при наведении на них курсора мыши */
    }
 
 .left-block {
-    width: 12%;
+    width: 12.5%;
     height: 510px;
-    margin-left: 200px;
-    margin-right: 15px;
-    background-color: #393939;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 150px;
+    background-color: #403d39;
     box-shadow: 0 0 5px;
-    display: inline-block; /* устанавливаем элемент в виде строчного блока */
+    float: left;
 }
 
 #photo {
@@ -46,10 +49,9 @@ A:link {
 }
 
 #left {
-    background-color: #393939;
-    margin: 10px;
-    font-size: 11px;
-    color: #84bdf1;
+    background-color: #403d39;
+    font-size: 12px;
+    color: #fffcf2;
     text-align: center;
 }
 
@@ -59,42 +61,90 @@ A:link {
 }
 
 #left u {
-    color: #83c783;
+    color: #eb5e28;
     margin:0 auto;
 }
 
 .main {
-    width: 55%;
+    width: 50%;
     height: 510px;
-    float: right;
-    background-color: #4e5d69;
-    margin-right: 290px;
-    margin-top: 0px;
-    box-shadow: 0 0 5px #84bdf1;
-    font-size: 13.5px;
-    color: white;
+    background-color: #ccc5b9;
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px;
+    font-size: 13px;
+    color: #252422;
+    overflow-y: scroll; /* прокрутка по вертикали */
+    float: left;
 }
 
 
-.footer {
-    width: 55%;
-    height: 40%;
+.right {
+    width: 12.5%;
+    height: 510px;
+    padding: 10px;
     box-shadow: 0 0 5px;
-    background-color: #686666;
-    margin-left: 459px;
-    margin-top: 20px;
-    color:  #84bdf1;
+    background-color: #403d39;
+    color:  #fffcf2;
     text-align: center;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    font-size: 12px;
     font-weight: bold;
+    box-shadow: 0 0 5px #252422;
+    float: left;
+    margin-right: 150px;
 }
 
 form [class~="offer"] {
-    color: rgb(187, 48, 55);
+    color: #eb5e28;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 20px;
-    text-decoration-line: underline;
+    font-size: 13px;
+}
+
+#categories {
+    text-shadow: 1px 1px 1px #fffcf2;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.footer {
+    width: 49.6%;
+    height: 100px;
+    padding: 10px;
+    background-color: #403d39;
+    box-shadow: 0 0 5px #252422;
+    color:  #fffcf2;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 170px;
+    right: 415px;
+}
+
+#line {
+    border-bottom: ridge 5px #fffcf2;
+}
+
+#gif {
+    width: 100px;
+    height: 100px;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    margin-top: 15px;
 }

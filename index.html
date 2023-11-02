@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #fffcf2;">
   <head>
     <meta charset="UTF-8">
     <title>Zhanel Milliardova</title>
@@ -40,15 +40,16 @@
 </div>
   
 <div class="main">
-<ul>
-  <strong>EDUCATION</strong>
+<ul id="line">
+  <strong id="categories">EDUCATION</strong>
   <br>
   <br>
   <li><strong>Bachelor</strong> - 2020 Abylai Khan Kazakh University of International Relations and World Languages, Almaty-<strong>International relations</strong></li>
-  <li>2015 Linguistic College of Almaty Translation business <strong>English Interpreter</strong></li>
+  <li>2015 Linguistic College of Almaty Translation business <strong>English Interpreter</strong></li><br>
 </ul>
-<ul>
-  <strong>WORK EXPERIENCE</strong>
+
+<ul id="line">
+  <strong id="categories">WORK EXPERIENCE</strong>
   <br>
   <br>
   <li>February 2023 — present <strong>Bayer KAZ LLP</strong><br>
@@ -59,7 +60,7 @@
     <li>registration and sending of incoming/outgoing documentation, parcels;</li>
     <li>execution of orders of the head;</li>
     <li>registration of contracts of the administrative department in 1C;</li>
-    <li>checking and sending payments for payment, maintaining a register of payments in 1C;</li>
+    <li>checking and sending payments for payment, maintaining a register of payments in 1C.</li>
   </ol>
   <br>
   <li>March 2018 — December 2022 <strong>Uanas-Yntymak LLP Almaty</strong></li><i>Assistant Director</i>
@@ -71,30 +72,124 @@
     <li>development of contracts, purchase and sale agreements, termination agreements, etc.;</li>
     <li>preparation of outgoing documentation (commercial proposals, letters, claims);</li>
     <li>development of internal regulatory documents of the organization;</li>
-    <li>work in the 1C: Enterprise 8.3 program;</li>
+    <li>work in the 1C: Enterprise 8.3 program.</li>
   </ol>
+  <br>
+  <li>January 2022 — November 2022 <strong>Rusburmash Kazakhstan LLP</strong><br>
+    <i>Document specialist</i>
+    <br><br>
+    <ol>
+      <li>work in the electronic document management system Documentolog;</li>
+      <li>formation of an archive of documentation, including in electronic form </li>
+      <li>updating internal regulatory documents;</li>
+      <li>preparation of documents for signing by the manager;</li>
+      <li>document management: registration of incoming and outgoing documentation,
+        distribution of incoming correspondence between responsible structural
+        divisions.</li>
+    </ol>
+    <br>
+    <li>January 2018 — March 2018 <strong>LuckyDecor LLP</strong><br>
+      <i>Director's assistant</i>
+      <br><br>
+      <ol> 
+        <li>assistance to designers;</li>
+        <li>carrying out instructions from the manager;</li>
+        <li>maintaining accounts on social networks;</li>
+        <li>consulting customers;</li>
+        <li>preparation of preliminary order layouts.</li>
+      </ol>
+      <br>
+      <li>October 2016 — September 2017 <strong>Kindergarten "Lucky kids"</strong><br>
+        <i>English teacher</i>
+        <br><br>
+        <ol> 
+          <li>teaching English and Kazakh languages for children from 2 to 6 years old in a play format;</li>
+          <li>drawing up a curriculum for preschool education;</li>
+          <li>monitoring children's progress.</li>
+        </ol>
+        <br>
+      <li>January 2015 — March 2015 <strong>Translation agency at a notary</strong><br>
+        <i>Translator</i>
+        <br><br>
+        <ol>
+          <li>consulting clients on issues of notarial acts;</li>
+          <li>acceptance and verification of documents for notarization;</li>
+          <li>translation of seals/stamps/visas and preparation of documents for subsequent notarial assurance.</li><br>
+        </ol>
   </ul> 
+  <ul id="line">
+    <strong id="categories">TRAINING COURSES</strong>
+  <br>
+  <br>
+  <li>2018<i> Generalist accountant</i>Center for training accountants Bukhkurs kz, Accounting</li>
+  <li>2016<i> Chinese language course</i>Beijing International Science & Technology unversity , Chinese language course</li><br>
+</ul>
+<ul>
+  <strong id="categories">ADDITIONAL SKILLS</strong>
+  <br>
+  <br>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Languages</th>
+        <th>Programs</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Russian - Naitive</td>
+          <td>MS Word</td>
+        </tr>
+        <tr>
+          <td>Kazakh - Naitive</td>
+          <td>MS Excel</td>
+        </tr>
+        <tr>
+          <td>English - Advanced</td>
+          <td>Photoshop</td>
+        </tr>
+        <tr>
+          <td>Chinese - Beginner</td>
+          <td>CorelDRAW</td>
+        </tr>
+        <tr>
+          <td>Korean - Beginner</td>
+          <td>1c:Accounting</td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+
+</ul>
 </div>
   
-<div class="footer">
-  <h3><strong>For questions and inquiries please fill form below</strong></h3>
+<div class="right">
+  <h3 style="color: #eb5e28;"><strong>For questions and inquiries <br>please fill form below</strong></h4>
   <form>
-    <label for="name">Enter your name</label><br>
+    <label for="company">Company name</label><br>
+    <input type="text" id="companyname" name="companyname"><br>
+    <label for="name">Name</label><br>
     <input type="text" id="name" name="name" autofocus><br>
     <label for="contact">Contact number</label><br>
-    <input type="text" id="contact" name="contact"><br><br>
+    <input type="text" id="contact" name="contact"><br>
+    <label for="email">Email address</label><br>
+    <input type="text" id="email" name="email"><br><br>
     <input type="button" id="submit" name="submit" value="Submit" onclick="alert('Submitted!')">
     <input type="reset" id="reset" name="reset" value="Reset">
   </form>
 <br>
   <form class="special">
-    <label for="offer" class="offer">Send job offer</label><br>
-    <input type="file" id="file" name="SUBMIT" accept="application/pdf"><br>
+    <label for="offer" class="offer">Send job offer</label><br><br>
+    <input type="file" id="file" name="SUBMIT" accept="application/pdf"><br><br>
     <input type="button" id="submitoff" name="submitoff" value="Send" onclick="alert('Sended!')">
   </form>
+  <br>
+<img src="https://i.gifer.com/3IsN.gif" alt="runningdog" id="gif">
 </div>
   
-  
+<div class="footer">
+  DON`T KNOW WHAT TO PUT HERE GIVE ME IDEAS PLEASE<br>
+</div>
 
 </body>
 </html>
