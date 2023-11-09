@@ -134,8 +134,8 @@ form [class~="offer"] {
 }
 
 @media only screen and (max-width: 414px) and (orientation: portrait) {
-    .header {width: 100px; font-size: 5px;}
-    .left-block {width: 300px; margin: 0px; font-size: 5px;}
-    .right {width: 400px; font-size: 5px;}
-	.main {width: 200px; font-size: 5px}
+    .header {width: 100px; font-size: 5px; margin: 0px;}
+    .left-block {width: 100px; margin: 0px; font-size: 5px;}
+    .right {width: 100px; font-size: 5px;}
+	.main {width: 400px; font-size: 5px}
 }
