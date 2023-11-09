@@ -133,18 +133,11 @@ form [class~="offer"] {
     margin-top: 15px;
 }
 
-@media (max-width: 375px) and (orientation: landscape) {
-    .header {
-	    width: 100%; font-size: 10px; margin: 0px;
-    }
-    .left-block {
-	    width: 20%; margin: 0px; font-size: 5px; float: left; height: 100px
-    }
-    .right {
-	    width: 100px; font-size: 5px;
-    }
-	.main 
-	{
-	width: 70%; font-size: 5px; float: right;
-}
+@media (max-width: 600px) and (max-height:1000px) {
+    .page {flex-direction:row-reverse;}
+    .header {width: 200px; margin-left: 25px; margin-right: 25px; font-size: 10px; margin-bottom: 5px;}
+    .main {width: 500px; margin-left: 5px; height: 200px; margin-bottom: 20px; font-size: 11px;}
+    .left-block {width: 500px; font-size: 5px; height: 200px; margin-left: 5px; margin-right: 5px;}
+    #photo {display: none;}
+    .right {width: 500px; font-size: 10px; height: 100px; overflow-y: scroll; margin-bottom: 20px; margin-left: 5px; margin-right: 5px;}
 }
