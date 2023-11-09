@@ -133,9 +133,8 @@ form [class~="offer"] {
     margin-top: 15px;
 }
 
-@media screen (min-width: 414px), (orientation: landscape) {
-    .page {display: flex; flex-direction: column;}
-    #left {width: 100px;}
-    .main {width: 250px;}
-    .right {width: 300px;}
-    }
+@media only screen and (max-width: 600px) {
+    .header {width: 100px;}
+    .left-block {width: 300px; margin: 0px;}
+    .right {width: 400px;}
+}
