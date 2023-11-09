@@ -135,7 +135,7 @@ form [class~="offer"] {
 
 @media (max-width: 480px) and (orientation: landscape) {
     .header {
-	    width: 100%; font-size: 15px; margin: 0px;
+	    width: 100%; font-size: 10px; margin: 0px;
     }
     .left-block {
 	    width: 20%; margin: 0px; font-size: 5px; float: left; height: 100px
