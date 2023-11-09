@@ -133,7 +133,7 @@ form [class~="offer"] {
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     .header {width: 100px;}
     .left-block {width: 300px; margin: 0px;}
     .right {width: 400px;}
