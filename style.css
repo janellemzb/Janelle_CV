@@ -133,7 +133,7 @@ form [class~="offer"] {
     margin-top: 15px;
 }
 
-@media (max-width: 480px) and (orientation: landscape) {
+@media (max-width: 375px) and (orientation: landscape) {
     .header {
 	    width: 100%; font-size: 10px; margin: 0px;
     }
