@@ -138,7 +138,7 @@ form [class~="offer"] {
 	    width: 100%; font-size: 15px; margin: 0px;
     }
     .left-block {
-	    width: 20%; margin: 0px; font-size: 5px; float: left;
+	    width: 20%; margin: 0px; font-size: 5px; float: left; height: 100px
     }
     .right {
 	    width: 100px; font-size: 5px;
