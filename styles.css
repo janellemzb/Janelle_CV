@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import "/style/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+/* #A2A99D-зеленый #2b2d2c-черный #fafafa-белый */
+body {
+  background-color: #fafafa;
+  font-family: "Roboto Mono", monospace !important;
+}
+
+.resume {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  color: #fafafa;
+  text-align: center;
+  padding: 5%;
+}
+.resume .accordion-body {
+  text-align: left;
+}
+.resume .left-side {
+  width: 15%;
+  background-color: #2b2d2c;
+  align-items: center;
+  margin-left: 5%;
+}
+.resume .shortinfo {
+  color: #fafafa;
+  text-align: center;
+  padding: 5%;
+}
+.resume .links {
+  color: #fafafa;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 30%;
+}
+.resume .pic {
+  border-radius: 50%; /* Скругление углов изображения */
+  border: 5px solid rgba(64, 61, 57, 0.5882352941); /* Цвет и ширину рамки */
+  margin-top: 30%;
+}
+.resume .links a {
+  color: #fafafa; /* Цвет непосещенных ссылок */
+}
+.resume .links a:visited {
+  color: #A2A99D;
+}
+.resume .links a:hover {
+  color: #eb5e28; /* Цвет ссылок при наведении на них курсора мыши */
+}
+.resume .table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.resume .table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.resume .table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+.resume .info {
+  width: 70%;
+}
+
+@media screen and (max-width: 640px) {
+  .resume {
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume .left-side {
+    width: 70%;
+    align-items: center;
+  }
+  .resume .pic {
+    margin: 5%;
+    width: 100px;
+  }
+  .resume .info {
+    width: 100%;
+    padding-top: 5%;
+    font-size: 0.8em;
+  }
+  .resume .shortinfo {
+    padding: 0;
+  }
+  .resume .links {
+    margin-bottom: 5%;
+  }
+}
+
+
+/*# sourceMappingURL=styles.css.map */

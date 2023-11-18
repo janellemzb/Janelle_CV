@@ -1,0 +1,136 @@
+@import "/style/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+/* #A2A99D-зеленый #2b2d2c-черный #fafafa-белый */
+
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+.resume {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  color: #fafafa;
+  text-align: center;
+  padding: 5%;
+  
+  .accordion-body {
+    text-align: left;
+  }
+
+  .left-side {
+    width: 15%;
+    background-color: #2b2d2c;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .shortinfo {
+    color: #fafafa;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .links {
+    color: #fafafa;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 30%;
+  }
+
+  .pic {
+  border-radius: 50%;  /* Скругление углов изображения */
+  border: 5px solid #403d3996; /* Цвет и ширину рамки */
+  margin-top: 30%;
+  }
+
+  .links a {
+    color: #fafafa; /* Цвет непосещенных ссылок */
+  &:visited { 
+    color: #A2A99D /* Цвет посещенных ссылок */
+    }
+  &:hover { 
+    color: #eb5e28; /* Цвет ссылок при наведении на них курсора мыши */
+    }
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse; 
+    
+  th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+    }
+  td {
+      border: 1px solid #dddddd;
+      padding: 5px;
+    }
+  }
+  
+  .info {
+  width: 70%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .resume {
+    flex-direction: column;
+    align-items: center;
+    .left-side {
+      width: 70%;
+      align-items: center;
+    }
+    .pic {
+    margin: 5%;
+    width: 100px;
+    }
+    .info {
+      width: 100%;
+      padding-top: 5%;
+      font-size: 0.8em;
+    }
+    .shortinfo {
+      padding: 0;
+    }
+    .links {
+      margin-bottom: 5%;
+    }
+  }
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
